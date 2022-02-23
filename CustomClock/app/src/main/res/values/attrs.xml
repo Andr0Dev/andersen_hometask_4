@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="clockColor" format="color"/>
+        <attr name="hoursArrowColor" format="color"/>
+        <attr name="minutesArrowColor" format="color"/>
+        <attr name="secondsArrowColor" format="color"/>
+        <attr name="arrowsSize" format="dimension"/>
+        <attr name="clockPadding" format="dimension"/>
+        <attr name="showMillisecondsArrow" format="boolean"/>
+        <attr name="tickInterval" format="integer"/>
+    </declare-styleable>
+</resources>

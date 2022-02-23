@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".custom_analog_clock.CustomClockActivity"
+    tools:ignore="ResAuto">
+
+    <edu.filonenkooleksandr.customclock.custom_analog_clock.AnalogClock
+        android:layout_width="@dimen/custom_clock_width"
+        android:layout_height="@dimen/custom_clock_height"
+        app:hoursArrowColor="@color/black"
+        app:minutesArrowColor="@color/material_dynamic_primary60"
+        app:secondsArrowColor="@color/material_dynamic_neutral_variant40"
+        app:arrowsSize="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

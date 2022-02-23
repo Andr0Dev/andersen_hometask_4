@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomClock">
         <activity
+            android:name=".custom_analog_clock.CustomClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".basic_clock.AnalogClockActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

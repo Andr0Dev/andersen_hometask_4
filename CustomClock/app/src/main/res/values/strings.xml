@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Custom Clock</string>
+    <string name="analog_clock">Analog Clock</string>
+    <string name="customizing_clock">Customizing clock</string>
 </resources>

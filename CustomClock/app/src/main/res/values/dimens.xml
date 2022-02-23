@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_width">350dp</dimen>
+    <dimen name="clock_height">350dp</dimen>
+    <dimen name="margin_end">16dp</dimen>
+
+    <dimen name="rect_stroke_width">4dp</dimen>
+    <dimen name="circle_stroke_width">8dp</dimen>
+    <dimen name="hour_stroke_width">12dp</dimen>
+    <dimen name="minute_stroke_width">8dp</dimen>
+    <dimen name="second_stroke_width">4dp</dimen>
+    <dimen name="milliSecond_stroke_width">2dp</dimen>
+    <dimen name="segment_hour_stroke_width">12dp</dimen>
+    <dimen name="segment_minute_stroke_width">1dp</dimen>
+    <dimen name="clock_padding">30dp</dimen>
+    <dimen name="custom_clock_width">300dp</dimen>
+    <dimen name="custom_clock_height">300dp</dimen>
+</resources>
